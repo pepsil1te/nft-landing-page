@@ -12,7 +12,8 @@
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #31a1fc;
-  --header-shadow: #000 0px 0px 5px;
+  --header-color: #31a1fc;
+  --header-shadow: rgb(93, 194, 235) 0px 0px 5px;
 }
 
 * {
@@ -40,6 +41,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
+  background-color: var(--header-color);
 }
 
 header .container {
